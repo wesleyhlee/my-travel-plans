@@ -40,7 +40,31 @@ body {
     text-align: center;
 }
 
+.destination-dates {
+    background: #5CC9F5;
+    box-shadow: 4px 6px 9px 0 rgba(0, 0, 0, 0.4);
+    color: white;
+    margin: 0.5em;
+    min-height: 200px;
+    flex: 0 1 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.destination-dates p {
+    margin: 0;
+    transform: rotate(45deg);
+    text-shadow: 0 0 5px #01579b;
+    transition: transform 0.5s;
+}
+
 .destination:hover h2 {
+    transform: rotate(0deg);
+}
+
+.destination-dates:hover p {
     transform: rotate(0deg);
 }
 
